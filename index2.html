@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <style>
+        body {
+            background: url(vail-wallpaper-3840x2160-usa-4k-8260.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            background-attachment: fixed;
+        }
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .box2 {
+            width: 500px;
+            height: 340px;
+            background-color: rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(3px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            top: 110px;
+            text-align: center;
+            flex-direction: column;
+            gap: 30px;
+            padding: 5px;
+            border-radius: 20px;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+        }
+        .box3 input {
+            display: block;
+            margin: 10px;
+            padding: 10px;
+            width: 300px;
+            height: 20px;
+            position: relative;
+            bottom: 20px;
+            border-radius: 10px;
+            
+        
+        }
+        .box3 button {
+            width: 120px;
+            height: 50px;
+            position: relative;
+            border-radius: 10px;
+            bottom: 10px;
+            background-color: #222;
+    
+                }
+                .box3 button a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 25px;
+                }
+                .box3 button:hover {
+                    background-color: green;
+                }
+                .box2 h1 {
+                    font-size: 50px;
+                    color: rgb(201, 211, 226);
+                }
+                #but2 {
+            width: 120px;
+            height: 50px;
+            position: relative;
+            border-radius: 10px;
+            bottom: 10px;
+            background-color: #222;
+            color: white;
+
+          }
+                #but2:hover {
+                    background-color: red;
+                }
+                
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box2" >
+            <h1>ساخت حساب</h1>
+            <form action="" class="box3">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="password" id="password" name="password" maxlength="14" minlength="8" placeholder="Password" required>
+                <button type="submit"><a href="index3.html">ثبت نام</a></button>
+                <button id="but2"><a href="index.html">بازگشت</a></a>
+            </form>
+        </div>
+    </div>  
+</body>
+</html>
